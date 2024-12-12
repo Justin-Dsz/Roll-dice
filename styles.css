@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(58, 58, 58);
+    height: 100vh;
+}
+
+h1{
+    font-size: 6rem;
+    text-align: center;
+    color: aquamarine;
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-family: "Atma", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    color: aquamarine;
+    text-align: center;
+}
+
+.dice{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 20px;
+}
+
+.flex-dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    visibility: hidden;
+}
+
+.visi{
+    visibility:visible;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+}
+
+.play{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#foot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-top: 80px;
+    height: 80px;
+    background-color: #525B44;
+    font-size: 2rem;
+    font-family: "Atma", system-ui;
+    font-weight: 1000;
+    font-style: normal;
+    color: #D3F1DF;
+}
